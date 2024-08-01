@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Tipos de selectores basicos</h1>
+    <h2>Por nombre de etiqueta</h2>
+    <p>parrafo 1</p>
+    <p>parrafo 2</p>
+    <p>parrafo 3</p>
+    
+    <h2>por id</h2>
+    <p id="p2">parrafo 2</p>
+    <p id="p3">parrafo 3</p>
+
+    <h2>por clase</h2>
+    <p class="colorTexto colorFondo">parrafo 1</p>
+    <p id="color" class="color">parrafo 2</p>
+    <p class="colorTexto">parrafo 3</p>
+
+    <h2>por especificidad</h2>
+    <p id="p1" class="p1">parrafo 1</p>
+    <p id="p2" class="p2">parrafo 2</p>
+    <p id="p3" class="p3">parrafo 3</p>
+    <h2>Por Jerarquia</h2>
+    <div>
+        <p>parrafo 1</p>
+        <nav>parrafo 2
+            <span>span 1</span>
+            <p>parrafo guache</p>
+        </nav>
+    </div>
+    <h2>por etiquetas adyacentes</h2>
+    <div>
+        <p>parrafo 1</p>
+    </div>
+    <p>parrafo despues del div</p>
+    <p>parrafo despues del parrafo</p>
+    <p>parrafo 3</p>
+    <span>span 1</span>
+    
+    
+</body>
+</html> 
